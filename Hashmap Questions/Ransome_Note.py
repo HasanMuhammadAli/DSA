@@ -33,20 +33,19 @@ def canConstruct(ransomNote, magazine):
             counter[letter] -= 1
     return True
 
-    # Example usage 
-    ransomNote = "a"    
-    magazine = "bbaaa"
-    # Test the function
-    result = canConstruct(ransomNote, magazine)
-    print("Can construct ransom note:", result)  # Output: False
-    ransomNote = "aa"
-    magazine = "aab"
-    # Test the function
-    result = canConstruct(ransomNote, magazine)
-    print("Can construct ransom note:", result)  # Output: True
-    ransomNote = "aa"
-    magazine = "ab"
-    # Test the function
-    result = canConstruct(ransomNote, magazine)
-    print("Can construct ransom note:", result)  # Output: False
-    
+# Example usage 
+ransomNote = "a"
+magazine = "bbaaa"
+# Test the function
+result = canConstruct(ransomNote, magazine)
+print("Can construct ransom note:", result)  # Output: False
+ransomNote = "aa"
+magazine = "aab"
+# Test the function
+result = canConstruct(ransomNote, magazine)
+print("Can construct ransom note:", result)  # Output: True
+ransomNote = "aa"
+magazine = "ab"
+# Test the function
+result = canConstruct(ransomNote, magazine)
+print("Can construct ransom note:", result)  # Output: False
