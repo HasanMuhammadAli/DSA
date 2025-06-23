@@ -1,3 +1,8 @@
+'''
+Name: Muhammad Ali Mosin Hasan
+Date: 21/6/25
+Problem: 136: Single Number I
+'''
 from collections import Counter
 def single_number(nums):
     count = Counter(nums)
