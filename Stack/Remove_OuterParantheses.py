@@ -6,20 +6,24 @@ Problem: 1021: Remove Outermost Parentheses
 
 #using stack
 
-def removeOuterParentheses(s):
-    stack = []
-    result = []
-    for char in s:
-        if char == '(':
-            if stack:
-                result.append(char)
-            stack.append(char)
-        else:
-            stack.pop()
-            if stack:
-                result.append(char)
-    return ''.join(result)
+def removeOuterParentheses(str):
+    stk = []
+    ans = []
+    if str == "" :
+        return ""
+    for ch in str:
+        if ch == '(':
+            if not stk:
+                stk.append(ch)
+                continue
+            if stk:    
+                ans.append(ch)
+                stk.append(ch)
+        else: 
+            stk.pop()
+            if stk:
+                ans.append(ch)
+    
+    return ''.join(ans)
 
-# example
-print(removeOuterParentheses("(()())(())"))
-
+print(removeOuterParentheses("(()(()))"))
