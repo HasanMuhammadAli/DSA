@@ -11,15 +11,7 @@ def maxProfit(prices):
     Note: You cannot engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
     """
 
-    '''
-    max_profit = 0
-
-    for i in range(1, len(prices)):
-        if prices[i] > prices[i - 1]:
-            max_profit += prices[i] - prices[i - 1]
-
-    return max_profit
-    '''
+    
 
     i = 0
     low = prices[0]
