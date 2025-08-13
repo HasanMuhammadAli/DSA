@@ -8,13 +8,6 @@ Problem: 383: Ransom Note
 def canConstruct(ransomNote, magazine):
     '''
     Determines if a ransom note can be constructed from the letters in a magazine.
-
-    Args:
-        ransomNote (str): The ransom note to be constructed.
-        magazine (str): The magazine containing letters.
-
-    Returns:
-        bool: True if the ransom note can be constructed, False otherwise.
     '''
     counter = {}
     # Count occurrences of each letter in the magazine
