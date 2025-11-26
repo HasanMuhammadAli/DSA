@@ -19,7 +19,6 @@ def max_area(heights):
 			ans = max(area, ans)
 	return ans
 
-#heights = [1,8,6,2,5,4,8,3,7]
 heights = [1,1]
 max_parea = max_area(heights)
 print(max_parea)

@@ -1,6 +1,6 @@
 #88. Merge Sorted Arrays
 #Name : Muhammad Ali Mosin Hasan
-#Date: 9/11/25
+#Date: 09/11/25
 
 def merge(n1, m, n2, n):
 	l = m-1
