@@ -1,4 +1,5 @@
 def search(nums, target):
+    # Leetcode 70: Binary Search
     n = len(nums)
     L = 0
     R = n-1
