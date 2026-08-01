@@ -80,4 +80,3 @@ for k, v in counter.items():
 
 print("Heap containing tuple: ", heap)
 # Heap element example : (2, 3) 2 is freq and 3 is key
-
